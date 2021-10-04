@@ -1,0 +1,25 @@
+/* =============
+    Mixins
+============= */
+/* ---------------- Font Sizing ---------------- */
+html {
+  font-size: 100%;
+}
+
+/* ---------------- Media Queries ---------------- */
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 20% auto;
+  padding: 8px 16px;
+}
+header #header-links {
+  display: inline-block;
+}

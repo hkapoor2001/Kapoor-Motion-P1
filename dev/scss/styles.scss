@@ -1,0 +1,11 @@
+@charset 'utf-8';
+
+//Helpers Styles
+@import "helpers/_mixins";
+
+// Component Styles
+@import "components/_navigation.scss";
+
+// Sections Styles
+@import "layout/_header.scss";
+@import "layout/_footer.scss";
