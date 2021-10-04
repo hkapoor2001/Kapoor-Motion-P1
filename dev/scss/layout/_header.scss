@@ -3,10 +3,16 @@ header{
     width: 100%;
     background-color: white;
     display: grid;
-    grid-template-columns: 20% auto;
-    padding: 8px 16px;
 
-    #header-links{
-        display: inline-block;  
+    >div{
+        display: grid;
+        grid-template-columns: 20% auto;
+        padding: 8px 16px;
+    }
+
+    aside{
+        a{
+            display: inline-block;
+        }
     }
 }

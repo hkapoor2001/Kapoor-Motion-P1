@@ -17,9 +17,43 @@ header {
   width: 100%;
   background-color: white;
   display: grid;
+}
+header > div {
+  display: grid;
   grid-template-columns: 20% auto;
   padding: 8px 16px;
 }
-header #header-links {
+header aside a {
   display: inline-block;
+}
+
+#hero {
+  width: 100%;
+}
+#hero > div {
+  background-image: url(../img/Kapoor-Motion-P1-herospot.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+}
+#hero > div #experienceart section h1 {
+  font-size: 120px;
+  color: white;
+  margin-right: 5%;
+  margin-left: 50%;
+  margin-top: 25%;
+  font-family: "Prata", serif;
+  white-space: nowrap;
+}
+#hero > div #herologo section {
+  margin-top: 60%;
+  margin-right: 30%;
+}
+
+#content {
+  display: grid;
+  grid-template-areas: ". content .";
+  grid-template-columns: auto 50% auto;
+  padding: 64px 0;
 }

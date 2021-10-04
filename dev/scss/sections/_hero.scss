@@ -1,0 +1,29 @@
+#hero{
+    width: 100%;
+    >div {
+        background-image: url(../img/Kapoor-Motion-P1-herospot.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        height: 100vh;
+        #experienceart {
+            section{
+                h1{
+                    font-size: 120px;
+                    color: white;
+                    margin-right: 5%;
+                    margin-left: 50%;
+                    margin-top: 25%;
+                    font-family: 'Prata', serif;
+                    white-space: nowrap
+                }
+            }
+        }
+        #herologo{
+            section{
+                margin-top: 60%;
+                margin-right: 30%;
+            }
+        }
+    }
+}

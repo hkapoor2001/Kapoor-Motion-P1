@@ -2,10 +2,15 @@
 
 //Helpers Styles
 @import "helpers/_mixins";
+@import "helpers/_variables";
 
 // Component Styles
-@import "components/_navigation.scss";
+@import "components/_navigation";
+
+//Layout styles
+@import "layout/_header";
+@import "layout/_footer";
 
 // Sections Styles
-@import "layout/_header.scss";
-@import "layout/_footer.scss";
+@import "sections/_hero";
+@import "sections/_content";
