@@ -3,4 +3,13 @@
     grid-template-areas: ". content .";
     grid-template-columns: auto 50% auto;
     padding: 64px 0;
+
+    #content1{
+        grid-area: content;
+        font-family: 'Montserrat', sans-serif;
+        h1{
+            font-weight: bold;
+        }
+    }
+
 }

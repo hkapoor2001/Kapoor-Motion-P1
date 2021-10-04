@@ -17,6 +17,7 @@ header {
   width: 100%;
   background-color: white;
   display: grid;
+  margin-top: 0%;
 }
 header > div {
   display: grid;
@@ -47,8 +48,8 @@ header aside a {
   white-space: nowrap;
 }
 #hero > div #herologo section {
-  margin-top: 60%;
   margin-right: 30%;
+  margin-top: 95%;
 }
 
 #content {
@@ -56,4 +57,11 @@ header aside a {
   grid-template-areas: ". content .";
   grid-template-columns: auto 50% auto;
   padding: 64px 0;
+}
+#content #content1 {
+  grid-area: content;
+  font-family: "Montserrat", sans-serif;
+}
+#content #content1 h1 {
+  font-weight: bold;
 }
