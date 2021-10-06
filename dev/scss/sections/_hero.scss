@@ -5,24 +5,33 @@
         background-position: center;
         background-size: cover;
         display: flex;
+        justify-content: flex-end;
+        padding-right: 5vw;
         height: 100vh;
+        position: relative;
+
         #experienceart {
             section{
                 h1{
+                    // position: relative;
                     font-size: 120px;
                     color: white;
-                    margin-right: 5%;
-                    margin-left: 50%;
-                    margin-top: 25%;
+                    // margin-right: 5%;
+                    // margin-left: 60%;
+                    // margin-top: 25%;
+                    padding-top: 5%;
                     font-family: 'Prata', serif;
                     white-space: nowrap
                 }
             }
         }
         #herologo{
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
             section{
-                margin-right: 30%;
-                margin-top: 95%;
+                // margin-right: 30%;
+                // margin-top: 95%;
             }
         }
     }

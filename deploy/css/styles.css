@@ -16,16 +16,40 @@ header {
   position: fixed;
   width: 100%;
   background-color: white;
+  padding-top: 15px;
+  margin: -8px;
+  z-index: 1000;
   display: grid;
-  margin-top: 0%;
-}
-header > div {
-  display: grid;
-  grid-template-columns: 20% auto;
+  grid-template-columns: 5% 10% 50% 30% 5%;
+  grid-template-areas: ". logo . nav .";
   padding: 8px 16px;
 }
-header aside a {
-  display: inline-block;
+header #logo {
+  grid-area: logo;
+}
+header #nav {
+  grid-area: nav;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3%;
+}
+header #nav #nav1 {
+  grid-area: nav1;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+header #nav #nav2 {
+  grid-area: nav2;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+header #nav #nav3 {
+  grid-area: nav3;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: #671818;
 }
 
 #hero {
@@ -36,32 +60,36 @@ header aside a {
   background-position: center;
   background-size: cover;
   display: flex;
+  justify-content: flex-end;
+  padding-right: 5vw;
   height: 100vh;
+  position: relative;
 }
 #hero > div #experienceart section h1 {
   font-size: 120px;
   color: white;
-  margin-right: 5%;
-  margin-left: 50%;
-  margin-top: 25%;
+  padding-top: 5%;
   font-family: "Prata", serif;
   white-space: nowrap;
 }
-#hero > div #herologo section {
-  margin-right: 30%;
-  margin-top: 95%;
+#hero > div #herologo {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
-
 #content {
   display: grid;
   grid-template-areas: ". content .";
   grid-template-columns: auto 50% auto;
   padding: 64px 0;
+  padding-top: 8%;
 }
 #content #content1 {
   grid-area: content;
   font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }
 #content #content1 h1 {
   font-weight: bold;
+  font-size: 40px;
 }

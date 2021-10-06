@@ -2,19 +2,40 @@ header{
     position: fixed;
     width: 100%;
     background-color: white;
+    padding-top: 15px;
+    margin: -8px;
+    z-index: 1000;
+
     display: grid;
-    margin-top: 0%;
-
-    >div{
-        display: grid;
-        grid-template-columns: 20% auto;
-        padding: 8px 16px;
+    grid-template-columns: 5% 10% 50% 30% 5%;
+    grid-template-areas: ". logo . nav .";
+    padding: 8px 16px;
+    #logo{
+        grid-area: logo;
     }
-
-    aside{
-        a{
-            display: inline-block;
-            
+    #nav{
+        grid-area: nav;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3%;
+        #nav1{
+            grid-area: nav1;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            color: black;
+        }
+        #nav2{
+            grid-area: nav2;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            color: black;
+        }
+        #nav3{
+            grid-area: nav3;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            color:#671818;
         }
     }
-}
+
+    }
