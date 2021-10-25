@@ -54,41 +54,21 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/preloader-background-svg.svg" : {
+    "\/deploy\/img\/PreloaderSVG.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/preloader-background-svg.svg",
+      "oAP" : "\/deploy\/img\/PreloaderSVG.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/preloader-backgroundfill-svg.svg" : {
+    "\/deploy\/img\/PreloaderSVGoptimized.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/preloader-backgroundfill-svg.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/preloader-frame-svg.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/preloader-frame-svg.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/preloader-painting1-svg.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/preloader-painting1-svg.svg",
+      "oAP" : "\/deploy\/img\/PreloaderSVGoptimized.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -129,12 +109,12 @@
       "oAP" : "\/dev\/content\/hero.html",
       "oF" : 0
     },
-    "\/dev\/content\/svg.kit" : {
+    "\/dev\/content\/preloader.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/svg.html",
+      "oAP" : "\/dev\/content\/preloader.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
@@ -355,6 +335,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_preloader.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_preloader.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

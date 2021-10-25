@@ -93,3 +93,7 @@ header #nav #nav3 {
   font-weight: bold;
   font-size: 40px;
 }
+
+#preloader {
+  display: flex;
+}
