@@ -52,6 +52,56 @@ header #nav #nav3 {
   color: #671818;
 }
 
+#content {
+  display: grid;
+  grid-template-areas: ". content .";
+  grid-template-columns: auto 50% auto;
+  padding: 64px 0;
+  padding-top: 8%;
+}
+#content #content1 {
+  grid-area: content;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+#content #content1 h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#preloaderid {
+  display: grid;
+  grid-template-columns: auto 40vw auto;
+  grid-template-areas: ". preloader ";
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: 5000;
+  background-color: #E8C197;
+}
+@media (min-width: 768px) {
+  #preloaderid {
+    grid-template-columns: auto 30vw auto;
+  }
+}
+@media (min-width: 992px) {
+  #preloaderid {
+    grid-template-columns: auto 25vw auto;
+  }
+}
+@media (min-width: 992px) {
+  #preloaderid {
+    grid-template-columns: auto 20vw auto;
+  }
+}
+#preloaderid > div {
+  grid-area: preloader;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #hero {
   width: 100%;
 }
@@ -64,6 +114,7 @@ header #nav #nav3 {
   padding-right: 5vw;
   height: 100vh;
   position: relative;
+  z-index: 1;
 }
 #hero > div #experienceart section h1 {
   font-size: 120px;
@@ -77,6 +128,7 @@ header #nav #nav3 {
   bottom: 20px;
   right: 20px;
 }
+<<<<<<< Updated upstream
 #content {
   display: grid;
   grid-template-areas: ". content .";
@@ -97,3 +149,5 @@ header #nav #nav3 {
 #preloader {
   display: flex;
 }
+=======
+>>>>>>> Stashed changes

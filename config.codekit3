@@ -54,21 +54,37 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+<<<<<<< Updated upstream
     "\/deploy\/img\/PreloaderSVG.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/PreloaderSVG.svg",
+=======
+    "\/deploy\/img\/PreloaderV2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/PreloaderV2.svg",
+>>>>>>> Stashed changes
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
+<<<<<<< Updated upstream
     "\/deploy\/img\/PreloaderSVGoptimized.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/PreloaderSVGoptimized.svg",
+=======
+    "\/deploy\/img\/PreloaderV2Optimized.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/PreloaderV2Optimized.svg",
+>>>>>>> Stashed changes
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
