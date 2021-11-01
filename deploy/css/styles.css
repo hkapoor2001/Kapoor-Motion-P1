@@ -69,7 +69,7 @@ header #nav #nav3 {
   font-size: 40px;
 }
 
-#preloaderid {
+#preloader #preloaderid {
   display: grid;
   grid-template-columns: auto 40vw auto;
   grid-template-areas: ". preloader ";
@@ -80,21 +80,23 @@ header #nav #nav3 {
   background-color: #E8C197;
 }
 @media (min-width: 768px) {
-  #preloaderid {
+  #preloader #preloaderid {
     grid-template-columns: auto 30vw auto;
   }
 }
 @media (min-width: 992px) {
-  #preloaderid {
+  #preloader #preloaderid {
     grid-template-columns: auto 25vw auto;
   }
 }
 @media (min-width: 992px) {
-  #preloaderid {
+  #preloader #preloaderid {
     grid-template-columns: auto 20vw auto;
   }
 }
-#preloaderid > div {
+#preloader #preloaderid > div {
+  stroke-width: 1px;
+  stroke: red;
   grid-area: preloader;
   height: 100%;
   display: flex;
@@ -128,26 +130,3 @@ header #nav #nav3 {
   bottom: 20px;
   right: 20px;
 }
-<<<<<<< Updated upstream
-#content {
-  display: grid;
-  grid-template-areas: ". content .";
-  grid-template-columns: auto 50% auto;
-  padding: 64px 0;
-  padding-top: 8%;
-}
-#content #content1 {
-  grid-area: content;
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-}
-#content #content1 h1 {
-  font-weight: bold;
-  font-size: 40px;
-}
-
-#preloader {
-  display: flex;
-}
-=======
->>>>>>> Stashed changes
