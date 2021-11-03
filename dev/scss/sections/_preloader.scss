@@ -1,6 +1,4 @@
-
 #preloader{
-    #preloaderid{
         display: grid;
         grid-template-columns: auto 40vw auto;
         grid-template-areas: ". preloader ";
@@ -20,9 +18,8 @@
             grid-template-columns: auto 20vw auto;
         }
     
-        >div{
+        #preloaderid{
             stroke-width: 1px;
-            stroke: red;
             grid-area: preloader;
             height: 100%;
             display: flex;
@@ -30,4 +27,3 @@
             align-items: center;
         }
     }
-}
