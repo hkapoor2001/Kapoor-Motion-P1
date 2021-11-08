@@ -69,7 +69,7 @@ header #nav #nav3 {
   font-size: 40px;
 }
 
-#preloader {
+#preloadersection {
   display: grid;
   grid-template-columns: auto 40vw auto;
   grid-template-areas: ". preloader ";
@@ -80,21 +80,21 @@ header #nav #nav3 {
   background-color: #E8C197;
 }
 @media (min-width: 768px) {
-  #preloader {
-    grid-template-columns: auto 30vw auto;
+  #preloadersection {
+    grid-template-columns: auto 35vw auto;
   }
 }
 @media (min-width: 992px) {
-  #preloader {
-    grid-template-columns: auto 25vw auto;
+  #preloadersection {
+    grid-template-columns: auto 40vw auto;
   }
 }
-@media (min-width: 992px) {
-  #preloader {
-    grid-template-columns: auto 20vw auto;
+@media (min-width: 1200px) {
+  #preloadersection {
+    grid-template-columns: auto 45vw auto;
   }
 }
-#preloader #preloaderid {
+#preloadersection #preloaderdiv {
   stroke-width: 1px;
   grid-area: preloader;
   height: 100%;

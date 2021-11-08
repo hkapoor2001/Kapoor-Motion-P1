@@ -1,4 +1,4 @@
-#preloader{
+#preloadersection{
         display: grid;
         grid-template-columns: auto 40vw auto;
         grid-template-areas: ". preloader ";
@@ -9,16 +9,16 @@
         background-color: #E8C197;
     
         @include md{
-            grid-template-columns: auto 30vw auto;
+            grid-template-columns: auto 35vw auto;
         }
         @include lg{
-            grid-template-columns: auto 25vw auto;
+            grid-template-columns: auto 40vw auto;
         }
-        @include lg{
-            grid-template-columns: auto 20vw auto;
+        @include xl{
+            grid-template-columns: auto 45vw auto;
         }
     
-        #preloaderid{
+        #preloaderdiv{
             stroke-width: 1px;
             grid-area: preloader;
             height: 100%;

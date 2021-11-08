@@ -21,16 +21,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/finalpreloader.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/finalpreloader.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
     "\/deploy\/img\/Kapoor-Motion-P1-herospot.jpg" : {
       "ft" : 16384,
       "iS" : 155148,
@@ -64,41 +54,21 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/PreloaderSVG.svg" : {
+    "\/deploy\/img\/Preloader.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/PreloaderSVG.svg",
+      "oAP" : "\/deploy\/img\/Preloader.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/PreloaderSVGoptimized.svg" : {
+    "\/deploy\/img\/PreloaderOptimized.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/PreloaderSVGoptimized.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/PreloaderV2.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/PreloaderV2.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/PreloaderV2Optimized.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/PreloaderV2Optimized.svg",
+      "oAP" : "\/deploy\/img\/PreloaderOptimized.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
