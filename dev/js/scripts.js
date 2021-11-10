@@ -133,6 +133,8 @@ function rotate5(){
 
     tl.to("#preloadersection",{autoAlpha:0, duration:1.25})
 
+    tl.to("#hidecontent",{autoAlpha:0, duration:1.25})
+
     return tl;
 }
 
@@ -153,4 +155,5 @@ mainTL.add(innerframefade())
       .add (rotate4())
       .add(drawpaintinglines5())
       .add (rotate5())
+
 GSDevTools.create();
