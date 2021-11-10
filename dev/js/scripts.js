@@ -36,7 +36,7 @@ function rotate1(){
 
     tl.from("#painting1",{rotation: "0", duration:rotatetime, alpha: 1})
 
-    tl.to("#painting1",{rotation: "90_cw", duration:rotatetime, ease: "none", transformOrigin: "55.5% 50%", alpha: 0},"1same")
+    tl.to("#painting1",{rotation: "90_cw", duration:rotatetime, ease: "none", transformOrigin: "50% 50%", alpha: 0},"1same")
 
     tl.to("#innerframe",{rotation: "90_cw", duration:rotatetime, ease: "none", transformOrigin: "50% 50%"},"1same")
 
@@ -58,7 +58,7 @@ function rotate2(){
 
     tl.from("#painting2",{rotation: "0", alpha: 1})
 
-    tl.to("#painting2",{rotation: "90_cw", duration:rotatetime, ease: "none", transformOrigin: "55.5% 50%", alpha: 0},"2same")
+    tl.to("#painting2",{rotation: "90_cw", duration:rotatetime, ease: "none", transformOrigin: "50% 50%", alpha: 0},"2same")
 
     tl.to("#innerframe",{rotation: "180_cw", duration:rotatetime, ease: "none", transformOrigin: "50% 50%"},"2same")
 
@@ -131,8 +131,12 @@ function rotate5(){
 
     tl.to("#outerframe",{rotation: "90_cw", duration:rotatetime, ease: "none", transformOrigin: "50% 50%", alpha: 0},"5same")
 
+    tl.to("#preloadersection",{autoAlpha:0, duration:1.25})
+
     return tl;
 }
+
+
 
 
 
