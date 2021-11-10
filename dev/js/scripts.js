@@ -34,7 +34,7 @@ function drawpaintinglines1(){
 function rotate1(){
     const tl = gsap.timeline();
 
-    tl.from("#painting1",{rotation: "0", duration:rotatetime, alpha: 1})
+    tl.from("#painting1",{rotation: "0", duration:.35, alpha: 1})
 
     tl.to("#painting1",{rotation: "90_cw", duration:rotatetime, ease: "none", transformOrigin: "50% 50%", alpha: 0},"1same")
 
