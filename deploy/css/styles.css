@@ -350,6 +350,10 @@ body {
   margin: 0px;
 }
 
+.gs-dev-tools {
+  z-index: 10000;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
