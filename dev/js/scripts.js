@@ -133,7 +133,7 @@ function rotate5(){
 
     tl.to("#preloadersection",{autoAlpha:0, duration:1.25})
 
-    tl.to("#hidecontent",{autoAlpha:0, duration:1.25})
+   //to("#hidecontent",{autoAlpha:0, duration:1.25})
 
     return tl;
 }
