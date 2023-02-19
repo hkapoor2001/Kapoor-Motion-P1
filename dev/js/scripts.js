@@ -1,8 +1,9 @@
 import { gsap } from "gsap";
 import { GSDevTools } from "gsap/GSDevTools";
 import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(GSDevTools, DrawSVGPlugin);
+gsap.registerPlugin(GSDevTools, DrawSVGPlugin, ScrollTrigger);
 
 
 const mainTL = gsap.timeline();
